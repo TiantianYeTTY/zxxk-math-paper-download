@@ -1,14 +1,5 @@
 #!/usr/bin/env node
-/**
- * ============================================================
- *  zxxk-math-paper-download · batch_download.js
- *  学科网初中数学试卷批量下载脚本
- *  断点续传 + 限速防风控（每份间隔≥60s）+ 标签页可见性检查 + 容错日志
- *
- *  Designed by TiantianYe
- *  GitHub: https://github.com/TiantianYeTTY/zxxk-math-paper-download
- * ============================================================
- */
+// Designed by TiantianYe
 // 学科网批量下载 v2：账号有网校通权益，付费资源确认框显示"免费"
 // 流程：详情页 -> 点下载按钮 -> 确认框校验(必须含"免费") -> 确认 -> (重新下载兜底) -> 归档/解压
 const fs = require("fs");

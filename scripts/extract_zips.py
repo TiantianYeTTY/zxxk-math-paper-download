@@ -1,14 +1,5 @@
 #!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-============================================================
- zxxk-math-paper-download · extract_zips.py
- 学科网试卷 ZIP 解压脚本（GBK 文件名还原）
-
- Designed by TiantianYe
- GitHub: https://github.com/TiantianYeTTY/zxxk-math-paper-download
-============================================================
-"""
+# Designed by TiantianYe
 # 解压学科网 ZIP（GBK 文件名还原）到同名文件夹
 # 用法1: python3 extract_all_zips.py           -> 批量解压所有年级的 zip
 # 用法2: python3 extract_all_zips.py --one <zip> <dest>  -> 解压单个（供 batch_download.js 调用）
